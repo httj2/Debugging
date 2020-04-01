@@ -1,10 +1,11 @@
-function average(list) {
-  var sum = 0;
-
-  for (var num of list) {
-    sum ++ num;
+// trying to find the average between a set of numbers
+const average = function(list) {
+  let sum = 0;
+  // console.log(list.length)
+  for (let i = 0; i < list.length; i++) {
+    sum += list[i];
   }
-
   return sum / list.length;
+};
 
 console.log(average([3, 5, 7]));
