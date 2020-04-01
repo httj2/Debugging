@@ -9,4 +9,3 @@ const average = function(list) {
 };
 
 console.log(average([3, 5, 7]));
-console.log(average([3, 5, 2]));
